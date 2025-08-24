@@ -10,7 +10,7 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors({ origin: 'https://mini-plantstore-urvann-frontend.onrender.com/' }));
+app.use(cors({ origin: 'https://mini-plantstore-urvann-frontend.onrender.com' }));
 app.use(express.json());
 
 // Routes
