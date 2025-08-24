@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api/plants';
+const API_URL ='https://mini-plantstore-urvann.onrender.com/api/plants';
 
 export const fetchPlants = createAsyncThunk(
   'plants/fetchPlants',
